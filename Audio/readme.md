@@ -27,6 +27,7 @@ Ce notebook permet de :
 * Vérifier la qualité et la cohérence du format audio obtenu
 
 **Entrées :** fichiers `.mp4`
+
 **Sorties :** fichiers `.wav`
 
 ---
@@ -36,9 +37,10 @@ Ce notebook permet de :
 Ce notebook génère un fichier **CSV** contenant les métadonnées nécessaires à l’entraînement des modèles :
 
 * `video_id` : identifiant unique de la vidéo/audio
-* `label` : étiquette associée (classe, type de son, événement, etc.)
+* `label` : étiquette associée
 
-**Entrées :** répertoire contenant les fichiers audio ou vidéos
+**Entrées :** répertoire contenant les fichiers audio
+
 **Sorties :** fichier `.csv`
 
 ---
@@ -51,6 +53,7 @@ Ce notebook gère la **séparation et la sélection des vidéos audio** à parti
 * Création d’un sous-ensemble de données pour l’entraînement/test
 
 **Entrées :** fichier `.json`
+
 **Sorties :** JSON ou CSV filtré avec uniquement les vidéos/audio pertinentes
 
 ---
