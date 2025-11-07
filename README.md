@@ -48,7 +48,7 @@ Inclut les notebooks et scripts pour le **traitement du langage naturel (NLP)** 
 * Implémentation de différents descripteurs
 * Implémentation de réssaux de neurones avec GridSearch
 
-👉 Voir le fichier [`README - Module Video`](./Texte/readme.md) pour plus de détails.
+👉 Voir le fichier [`README - Module Texte`](./Texte/readme.md) pour plus de détails.
 
 ---
 
